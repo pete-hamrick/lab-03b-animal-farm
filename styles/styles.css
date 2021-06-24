@@ -6,9 +6,12 @@ body {
     grid-template-rows: auto 1fr auto;
 }
 
-main {
+/* main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
     padding: 30px;
-}
+} */
 
 header {
     background-color: #A2D7D2;
@@ -32,4 +35,28 @@ h1 {
 footer {
     background-color: #FAF0EA;
     padding: 10px;
+}
+
+img {
+    height: 200px;
+}
+
+#img-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+
+#text-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+
+#input-field {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
